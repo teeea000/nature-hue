@@ -1,0 +1,5 @@
+<macro>
+   <assert-service uuid="932c32bd-0000-47a2-835a-a8d455b859dd"/>
+   <assert-characteristic uuid="932c32bd-0002-47a2-835a-a8d455b859dd"/>
+   <write description="Write 0x01 to turn on" characteristic-uuid="932c32bd-0002-47a2-835a-a8d455b859dd" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" value="01" type="WRITE_REQUEST"/>
+</macro>
